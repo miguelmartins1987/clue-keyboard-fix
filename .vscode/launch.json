@@ -5,11 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(Windows) Launch",
+            "name": "(Windows) Launch Debug Build",
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/Debug/withdll.exe",
             "args": ["/d:${workspaceFolder}/build/Debug/ClueKeyboardFix.dll", "C:/Program Files (x86)/Hasbro Interactive/Clue/Clue.exe"],
+            "stopAtEntry": false,
+            "cwd": "C:/Program Files (x86)/Hasbro Interactive/Clue",
+            "environment": [],
+            "console": "internalConsole"
+        },
+        {
+            "name": "(Windows) Launch Release Build",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Release/withdll.exe",
+            "args": ["/d:${workspaceFolder}/build/Release/ClueKeyboardFix.dll", "C:/Program Files (x86)/Hasbro Interactive/Clue/Clue.exe"],
             "stopAtEntry": false,
             "cwd": "C:/Program Files (x86)/Hasbro Interactive/Clue",
             "environment": [],
