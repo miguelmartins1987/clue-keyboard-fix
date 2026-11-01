@@ -1,6 +1,6 @@
 # What is this?
 
-A fix for Clue: Murder at Boddy Mansion running on Windows 11. The problem is that, in some setups (mine included), one cannot enter their name at the character selection screen. This fixes that by detouring `ToAsciiEx` using Microsoft Detours.
+A fix for Clue: Murder at Boddy Mansion running on Windows 11. The problem is that, in some setups (mine included), one cannot enter their name at the character selection screen. This fixes that by detouring `ToAsciiEx` using [Microsoft Detours](https://github.com/microsoft/detours).
 
 # Where can I grab it?
 
